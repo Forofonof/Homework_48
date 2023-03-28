@@ -7,7 +7,7 @@ class Program
     {
         Zoo zoo = new Zoo();
         Menu menu = new Menu(zoo);
-        menu.work();
+        menu.Work();
     }
 }
 
@@ -20,7 +20,7 @@ class Menu
         _zoo = zoo;
     }
 
-    public void work()
+    public void Work()
     {
         const string CommandShowAllAviary = "1";
         const string CommandSearchAviares = "2";
